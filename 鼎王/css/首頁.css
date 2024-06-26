@@ -207,7 +207,7 @@ a.my-btn-goTop.show {
 
 .g-container {
     width: 300px;
-    margin: auto;
+    margin-left: -40px;
     height: calc(var(--h) * 1px);
     line-height: calc(var(--h) * 1px);
     font-size: 20px;
@@ -219,11 +219,9 @@ a.my-btn-goTop.show {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    margin: 0 0 0 -20px;
 }
 
 .g-container li {
-
     text-align: center;
     flex-shrink: 0;
     width: 100%;
