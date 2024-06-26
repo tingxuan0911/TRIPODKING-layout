@@ -236,6 +236,7 @@ a.my-btn-goTop.show {
     white-space: nowrap;
     cursor: pointer;
     animation: liMove calc(var(--speed)) infinite;
+    text-align: center;
 }
 
 @keyframes move {
