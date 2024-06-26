@@ -222,6 +222,7 @@ a.my-btn-goTop.show {
 }
 
 .g-container li {
+     margin: 0px auto;
     flex-shrink: 0;
     width: 100%;
     padding-left: 10px;
@@ -236,7 +237,6 @@ a.my-btn-goTop.show {
     white-space: nowrap;
     cursor: pointer;
     animation: liMove calc(var(--speed)) infinite;
-    text-align: center;
 }
 
 @keyframes move {
