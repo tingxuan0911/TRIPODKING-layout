@@ -222,8 +222,8 @@ a.my-btn-goTop.show {
 }
 
 .g-container li {
-/*      margin: 0px auto; */
-    padding:0 10px 0 0;
+     margin: 0 0 0 -20px;
+/*     padding:0 10px 0 0; */
     text-align: center;
     flex-shrink: 0;
     width: 100%;
